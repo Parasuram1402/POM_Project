@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34296" started-at="2017-12-19T22:45:56Z" finished-at="2017-12-19T22:46:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34296" started-at="2017-12-19T22:45:56Z" finished-at="2017-12-19T22:46:30Z">
+      <class name="com.excers.selenium.phpcollab.tests.TestProjectCreation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="beforeTest" is-config="true" duration-ms="8485" started-at="2017-12-20T04:15:56Z" finished-at="2017-12-20T04:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2017-12-20T04:16:05Z" finished-at="2017-12-20T04:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.excers.selenium.phpcollab.tests.TestProjectCreation.CreateUser() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateUser()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="CreateUser" duration-ms="6083" started-at="2017-12-20T04:16:05Z" finished-at="2017-12-20T04:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="getResult" is-config="true" duration-ms="2" started-at="2017-12-20T04:16:11Z" finished-at="2017-12-20T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateUser status=SUCCESS method=TestProjectCreation.CreateUser()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateProject()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="CreateProject" duration-ms="5943" started-at="2017-12-20T04:16:11Z" depends-on-methods="com.excers.selenium.phpcollab.tests.TestProjectCreation.CreateUser" finished-at="2017-12-20T04:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-20T04:16:11Z" finished-at="2017-12-20T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.excers.selenium.phpcollab.tests.TestProjectCreation.CreateProject() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="getResult" is-config="true" duration-ms="0" started-at="2017-12-20T04:16:17Z" finished-at="2017-12-20T04:16:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateProject status=SUCCESS method=TestProjectCreation.CreateProject()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestProjectCreation@59fa1d9b]" name="afterTest" is-config="true" duration-ms="1269" started-at="2017-12-20T04:16:17Z" finished-at="2017-12-20T04:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.excers.selenium.phpcollab.tests.TestProjectCreation -->
+      <class name="com.excers.selenium.phpcollab.tests.TestUserCreation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestUserCreation@cc285f4]" name="beforeTest" is-config="true" duration-ms="7046" started-at="2017-12-20T04:16:18Z" finished-at="2017-12-20T04:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.excers.selenium.phpcollab.tests.TestUserCreation@cc285f4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-12-20T04:16:25Z" finished-at="2017-12-20T04:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.excers.selenium.phpcollab.tests.TestUserCreation.CreateUser() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateUser()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestUserCreation@cc285f4]" name="CreateUser" duration-ms="4235" started-at="2017-12-20T04:16:25Z" finished-at="2017-12-20T04:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.excers.selenium.phpcollab.tests.TestUserCreation@cc285f4]" name="getResult" is-config="true" duration-ms="0" started-at="2017-12-20T04:16:29Z" finished-at="2017-12-20T04:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateUser status=SUCCESS method=TestUserCreation.CreateUser()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestUserCreation@cc285f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.excers.selenium.phpcollab.tests.TestUserCreation@cc285f4]" name="afterTest" is-config="true" duration-ms="1221" started-at="2017-12-20T04:16:29Z" finished-at="2017-12-20T04:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.excers.selenium.phpcollab.tests.TestUserCreation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
