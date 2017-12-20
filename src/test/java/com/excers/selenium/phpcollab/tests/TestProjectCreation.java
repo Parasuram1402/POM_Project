@@ -49,7 +49,7 @@ public class TestProjectCreation {
 @Test(priority=1)
 public void CreateUser() throws IOException, InterruptedException {
 	String name, fullname, password, permission,testname;
-	logger = extent.startTest("CreateUser for Test " + this.getClass().getSimpleName());
+	logger = extent.startTest("CreateUser for " + this.getClass().getSimpleName());
 	userObject=new PHPUserSteps(driver);
 	userPage=new PHPUserPage();
 	row = (XSSFRow) rowIterator.next();
@@ -90,7 +90,7 @@ public void CreateUser() throws IOException, InterruptedException {
 @Test(priority=2, dependsOnMethods={"CreateUser"})
   public void CreateProject() throws IOException, InterruptedException {
 	row = (XSSFRow) rowIterator.next();
-	logger = extent.startTest("CreateProject for Test " + this.getClass().getSimpleName());
+	logger = extent.startTest("CreateProject for " + this.getClass().getSimpleName());
 	projectObject=new PHPProjectSteps(driver);
 	projectPage=new PHPProjectPage();
 	String projectName,priority,owner,testname;

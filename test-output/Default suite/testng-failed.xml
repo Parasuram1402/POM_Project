@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.excers.selenium.phpcollab.tests.TestUserCreation">
+      <class name="com.excers.selenium.phpcollab.tests.TestProjectCreationPageFactory">
         <methods>
-          <include name="CreateUser"/>
+          <include name="afterTest"/>
+          <include name="CreateProject"/>
           <include name="beforeTest"/>
+          <include name="CreateUser"/>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- com.excers.selenium.phpcollab.tests.TestUserCreation -->
+      </class> <!-- com.excers.selenium.phpcollab.tests.TestProjectCreationPageFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
