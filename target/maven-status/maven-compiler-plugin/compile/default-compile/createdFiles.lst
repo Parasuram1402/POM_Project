@@ -1,0 +1,9 @@
+com\excers\selenium\phpcollab\pages\PHPProjectPage.class
+com\excers\selenium\phpcollab\pagefactory\PHPProjectPage.class
+com\excers\selenium\phpcollab\pages\PHPLoginPage.class
+com\excers\selenium\phpcollab\pagefactory\PHPLoginPage.class
+com\excers\selenium\phpcollab\pagefactory\PHPUserPage.class
+com\excers\selenium\phpcollab\steps\PHPProjectSteps.class
+com\excers\selenium\phpcollab\steps\PHPLoginSteps.class
+com\excers\selenium\phpcollab\steps\PHPUserSteps.class
+com\excers\selenium\phpcollab\pages\PHPUserPage.class

@@ -1,0 +1,3 @@
+com\excers\selenium\phpcollab\tests\TestUserCreation.class
+com\excers\selenium\phpcollab\tests\TestProjectCreation.class
+com\excers\selenium\phpcollab\tests\TestProjectCreationPageFactory.class
